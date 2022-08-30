@@ -1,0 +1,39 @@
+{
+    "questions":[
+        {"qnumber":1,"question":"What AOP stands for?","ans1":"Aspect Oriented Programming",
+            "ans2":"Any Object Programming","ans3":"Asset Object Programming","ans4":"Asset Oriented Protocol","correctanswer":"1"},
+
+         {"qnumber":2,"question":"What is singleton scope?", "ans1":"This scopes the bean definition to a single instance per Spring IoC container", "ans2":"This scopes the bean definition to a single instance per HTTP Request",
+         "ans3":"This scopes the bean definition to a single instance per HTTP Session","ans4":"This scopes the bean definition to a single instance per HTTP Application/ Global session",
+         "correctanswer":"1"},
+
+         {"qnumber":3,"question":"What is true about <map> collection configuration elements?","ans1":"This helps in wiring a list of values, allowing duplicates",
+            "ans2":"This helps in wiring a list of values but without any duplicates","ans3":"This can be used to inject a collection of name-value pairs where name and value can be of any type","ans4":"This tag is not supported",
+            "correctanswer":"3"},
+        
+         {"qnumber":4,"question":"What is byType mode of autowiring?","ans1":"Default setting which meas no autowiring and you should use explicit bean reference for wiring",
+            "ans2":"Autowiring by property name. Spring tries to match and wire its properties with the beans defined by the same names in the configuration file","ans3":"Spring first tries to wire using autowire by constructor, if it does not work, Spring tries to autowire by byType",
+            "ans4":"Autowiring by property type. Spring tries to match and wire a property if its type matches with exactly one of the beans name in configuration file","correctanswer":"4"},
+
+        {"qnumber":5,"question":"What is Join point?","ans1":"This represents a point in your application which joins two objects",
+            "ans2":"This represents a point in your object where you join values","ans3":"This represents a point in your object where you join injected values",
+            "ans4":"This represents a point in your application where you can plug-in AOP aspect.","correctanswer":"4"},
+        
+        {"qnumber":6,"question":"What are the different points where weaving can be applied?","ans1":"Compile time, load time",
+            "ans2":"Compile time, run time","ans3":"Run time","ans4":"Compile time, load Time, Run time","correctanswer":"4"},
+        
+        {"qnumber":7,"question":"How to use ref keyword in beans ?","ans1":"Using setter method only",
+            "ans2":"Using constructor argument only","ans3":"Using setter method and constructor argument both","ans4":"None of the above","correctanswer":"3"},
+
+        {"qnumber":8,"question":"Can we integrate Struts with Spring ?","ans1":"Yes",
+            "ans2":"No","ans3":"Not Applicable","ans4":"None of the above","correctanswer":"1"},
+
+        {"qnumber":9,"question":"A bean must have id attribute in beans configuration file ","ans1":"True",
+            "ans2":"False","ans3":"Not Applicable","ans4":"None of the above","correctanswer":"2"},
+
+        {"qnumber":10,"question":"What is true about BeanPostProcessor ?","ans1":"It is a concrete Class",
+            "ans2":"It is an interface","ans3":"It is an abstract class","ans4":"None of the above","correctanswer":"2"}
+    ]
+
+
+}
