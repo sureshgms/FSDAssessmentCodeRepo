@@ -5,6 +5,7 @@ import javax.servlet.http.HttpSession;
 public class AvailableFlights {
 
 	private String newfieldadded; // This is the new field added to check git push
+	private String newreadonlyChanges; // This is to test the readonly Changes
 	private String flightNumber;
 	private String sourcePlace;
 	private String destinationPlace;
